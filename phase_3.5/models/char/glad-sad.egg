@@ -1,0 +1,60 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a chan -o glad-sad.egg glad-hander.mb"
+}
+<Table> {
+  <Bundle> glad-hander {
+    <Table> "<skeleton>" {
+      <Table> gladhander {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> joint4 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> jaw_joint {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { 0.0169505587271791 } }
+              <S$Anim> y { <V> { -0.0529087618342164 } }
+              <S$Anim> z { <V> { -0.700728060060933 } }
+            }
+          }
+          <Table> right_eye {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> k { <V> { 0.753830662556504 } }
+              <S$Anim> h { <V> { -100.981860536069 } }
+              <S$Anim> p { <V> { 25.8555660626524 } }
+              <S$Anim> r { <V> { -97.8427597096786 } }
+              <S$Anim> x { <V> { 0.480892890841605 } }
+              <S$Anim> y { <V> { 1.26305389494034 } }
+              <S$Anim> z { <V> { -0.295611893115739 } }
+            }
+          }
+          <Table> left_eye {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> k { <V> { 0.760508164001663 } }
+              <S$Anim> h { <V> { 99.4897088147268 } }
+              <S$Anim> p { <V> { 12.7044058816073 } }
+              <S$Anim> r { <V> { 109.668286049979 } }
+              <S$Anim> x { <V> { -0.417831732207428 } }
+              <S$Anim> y { <V> { 1.15131031168778 } }
+              <S$Anim> z { <V> { -0.407285738524262 } }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

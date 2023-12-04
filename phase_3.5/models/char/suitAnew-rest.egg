@@ -1,0 +1,316 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a chan -o suitAnew-rest.egg suitA-mod.mb"
+}
+<Table> {
+  <Bundle> suitA-mod {
+    <Table> "<skeleton>" {
+      <Table> suitA {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> joint_shadow {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> joint1 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> h { <V> { -13.2940679524979 } }
+              <S$Anim> p { <V> { 28.0415321473878 } }
+              <S$Anim> r { <V> { -34.5501741799041 } }
+              <S$Anim> x { <V> { -0.0316815141178536 } }
+              <S$Anim> y { <V> { 2.90922382622094 } }
+              <S$Anim> z { <V> { 0.309986001431755 } }
+            }
+            <Table> joint2 {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+                <S$Anim> h { <V> { 106.070287374807 } }
+                <S$Anim> p { <V> { -52.0218147655588 } }
+                <S$Anim> r { <V> { 12.7933559716003 } }
+                <S$Anim> x { <V> { 0.550215762571231 } }
+              }
+              <Table> joint3 {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h { <V> { 95.202766100424 } }
+                  <S$Anim> p { <V> { 1.5335712596164 } }
+                  <S$Anim> r { <V> { -0.139623619322967 } }
+                  <S$Anim> x { <V> { 1.41683470676722 } }
+                }
+                <Table> joint4 {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { -90.0283303583189 } }
+                    <S$Anim> p { <V> { 88.7305917135239 } }
+                    <S$Anim> r { <V> { 52.1595522802989 } }
+                    <S$Anim> x { <V> { 1.74423628979452 } }
+                    <S$Anim> y { <V> { -0.00121172464730202 } }
+                    <S$Anim> z { <V> { 0.065921308584524 } }
+                  }
+                  <Table> joint5 {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -89.9999991472528 } }
+                      <S$Anim> p { <V> { -0.115492935107378 } }
+                      <S$Anim> x { <V> { 0.550425457395143 } }
+                    }
+                  }
+                }
+              }
+            }
+            <Table> joint6 {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+                <S$Anim> h { <V> { -6.78615081932317 } }
+                <S$Anim> p { <V> { 16.1488250433216 } }
+                <S$Anim> r { <V> { -49.457474823218 } }
+                <S$Anim> x { <V> { 0.536257788782828 } }
+                <S$Anim> y { <V> { 0.758096218221752 } }
+              }
+              <Table> joint_attachMeter {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h { <V> { 18.5402124318754 } }
+                  <S$Anim> p { <V> { 7.62560042788452 } }
+                  <S$Anim> r { <V> { -0.633461583800876 } }
+                  <S$Anim> x { <V> { 1.24048791725184 } }
+                  <S$Anim> y { <V> { -0.0121771598621254 } }
+                  <S$Anim> z { <V> { -0.0617343060060499 } }
+                }
+                <Table> to_head {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { -22.377626841478 } }
+                    <S$Anim> r { <V> { 90.0000000000002 } }
+                    <S$Anim> x { <V> { 1 } }
+                  }
+                }
+                <Table> joint9 {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { -57.0892222440654 } }
+                    <S$Anim> p { <V> { 17.4181978045171 } }
+                    <S$Anim> r { <V> { 20.6995896298319 } }
+                    <S$Anim> x { <V> { 0.408173515562575 } }
+                    <S$Anim> y { <V> { -1.32528357520163 } }
+                    <S$Anim> z { <V> { 0.0954022015791695 } }
+                  }
+                  <Table> joint10 {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 87.009347965646 } }
+                      <S$Anim> p { <V> { -27.3635709994251 } }
+                      <S$Anim> r { <V> { -65.9449723138109 } }
+                      <S$Anim> x { <V> { 1.2431573643437 } }
+                    }
+                    <Table> joint_Lhold {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> h { <V> { 63.1688388735271 } }
+                        <S$Anim> p { <V> { 20.9174131108684 } }
+                        <S$Anim> r { <V> { -64.1652833471894 } }
+                        <S$Anim> x { <V> { 1.39659125191363 } }
+                      }
+                      <Table> joint12 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { 146.06578203547 } }
+                          <S$Anim> p { <V> { -70.1906157165691 } }
+                          <S$Anim> r { <V> { -167.277616766874 } }
+                          <S$Anim> x { <V> { 0.580328250162331 } }
+                          <S$Anim> z { <V> { -0.0663602727575299 } }
+                        }
+                      }
+                      <Table> joint15 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -43.5729071697601 } }
+                          <S$Anim> r { <V> { 19.0299023783178 } }
+                          <S$Anim> x { <V> { 0.232992101824037 } }
+                          <S$Anim> y { <V> { 0.043474374527821 } }
+                          <S$Anim> z { <V> { 0.603631858303544 } }
+                        }
+                        <Table> joint16 {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { -2.3532968661082 } }
+                            <S$Anim> r { <V> { 44.4280197566097 } }
+                            <S$Anim> x { <V> { 0.366854694313634 } }
+                          }
+                        }
+                      }
+                      <Table> joint13 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -46.6901024967981 } }
+                          <S$Anim> r { <V> { 36.5597725180189 } }
+                          <S$Anim> x { <V> { 0.532523649445408 } }
+                          <S$Anim> y { <V> { 0.043474374527821 } }
+                          <S$Anim> z { <V> { 0.306642168920902 } }
+                        }
+                        <Table> joint14 {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 0.763898460929882 } }
+                            <S$Anim> r { <V> { 27.0407894560241 } }
+                            <S$Anim> x { <V> { 0.376621110781584 } }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                <Table> joint18 {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { 160.960007483234 } }
+                    <S$Anim> p { <V> { -31.0216149824549 } }
+                    <S$Anim> r { <V> { 13.1691739710108 } }
+                    <S$Anim> x { <V> { 0.408170000000005 } }
+                    <S$Anim> y { <V> { 1.32528 } }
+                    <S$Anim> z { <V> { 0.0954022 } }
+                  }
+                  <Table> joint19 {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 21.4817039250879 } }
+                      <S$Anim> p { <V> { 47.7532396703759 } }
+                      <S$Anim> r { <V> { -95.9457598169764 } }
+                      <S$Anim> x { <V> { -1.24315966782197 } }
+                    }
+                    <Table> joint_Rhold {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> h { <V> { 116.152111267965 } }
+                        <S$Anim> p { <V> { 38.9947996741534 } }
+                        <S$Anim> r { <V> { -109.495054018283 } }
+                        <S$Anim> x { <V> { -1.39659208905623 } }
+                      }
+                      <Table> joint20 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -58.4952042057669 } }
+                          <S$Anim> p { <V> { -71.0209321309316 } }
+                          <S$Anim> r { <V> { -13.2666701118233 } }
+                          <S$Anim> x { <V> { -0.580327812506933 } }
+                          <S$Anim> z { <V> { 0.0663612990918514 } }
+                        }
+                      }
+                      <Table> joint21 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -43.5729071697601 } }
+                          <S$Anim> r { <V> { -14.8890574371577 } }
+                          <S$Anim> x { <V> { -0.232991070695077 } }
+                          <S$Anim> y { <V> { -0.0434700000000046 } }
+                          <S$Anim> z { <V> { -0.603630584718336 } }
+                        }
+                        <Table> joint22 {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { -2.3532968661082 } }
+                            <S$Anim> r { <V> { 30.0732595596383 } }
+                            <S$Anim> x { <V> { -0.366859368789338 } }
+                          }
+                        }
+                      }
+                      <Table> joint23 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -46.6901024967982 } }
+                          <S$Anim> r { <V> { 2.64081270254349 } }
+                          <S$Anim> x { <V> { -0.532523320217672 } }
+                          <S$Anim> y { <V> { -0.0434700000000019 } }
+                          <S$Anim> z { <V> { -0.306641842204527 } }
+                        }
+                        <Table> joint24 {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 0.763898460929882 } }
+                            <S$Anim> r { <V> { 12.6860292590528 } }
+                            <S$Anim> x { <V> { -0.376623473179034 } }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            <Table> joint25 {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+                <S$Anim> h { <V> { 19.6257815821046 } }
+                <S$Anim> p { <V> { 50.349572455107 } }
+                <S$Anim> r { <V> { -53.8785389315736 } }
+                <S$Anim> x { <V> { -0.204932891295297 } }
+                <S$Anim> y { <V> { 0.510628977042805 } }
+              }
+              <Table> joint26 {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h { <V> { 33.1508679374687 } }
+                  <S$Anim> p { <V> { -8.40276379168906 } }
+                  <S$Anim> r { <V> { -12.6110914261232 } }
+                  <S$Anim> x { <V> { -1.41684334974459 } }
+                }
+                <Table> joint27 {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { -93.9771543112717 } }
+                    <S$Anim> p { <V> { 85.5943894358745 } }
+                    <S$Anim> r { <V> { 11.6483453000957 } }
+                    <S$Anim> x { <V> { -1.76283096723083 } }
+                  }
+                  <Table> joint28 {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -89.9999991472528 } }
+                      <S$Anim> p { <V> { -0.115492935112144 } }
+                      <S$Anim> x { <V> { -0.550425119226729 } }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -a chan -o yesman-laugh.egg suitA-heads.mb"
+}
+<Table> {
+  <Bundle> suitA-heads {
+    <Table> "<skeleton>" {
+      <Table> yesman {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> joint4 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> y {
+              <V> {
+                0.354608 0.317729 0.229786 0.124822 0.0368792 0
+                0.0262672 0.0919354 0.177304 0.262673 0.328341 0.354608
+              }
+            }
+          }
+          <Table> joint1 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { 0.361851568874964 } }
+              <S$Anim> y {
+                <V> {
+                  1.63694 1.66341 1.66801 1.6484 1.6071 1.57044 1.54894
+                  1.54022 1.55533 1.58858 1.62182 1.63694
+                }
+              }
+            }
+          }
+          <Table> joint2 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { -0.282117632969752 } }
+              <S$Anim> y {
+                <V> {
+                  1.58924 1.6157 1.62031 1.60069 1.5594 1.52274 1.50124
+                  1.49251 1.50763 1.54088 1.57412 1.58924
+                }
+              }
+            }
+          }
+          <Table> jaw_joint {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { -0.000679241052431644 } }
+              <S$Anim> y {
+                <V> {
+                  -0.203539 -0.166902 -0.0795382 0.0247352 0.112099
+                  0.148736 0.122642 0.0574055 -0.0274015 -0.112208
+                  -0.177445 -0.203539
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
