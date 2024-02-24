@@ -1,0 +1,304 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -o centered_arrowless_chatbox.egg centered_arrowless_chatbox.mb"
+}
+<Texture> avatar_palette_1llla_1 {
+  "phase_3/maps/avatar_palette_1llla_1.jpg"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> chatBalloon {
+  <Group> bottom {
+    <VertexPool> bottomShape.verts {
+      <Vertex> 0 {
+        4.49450016021729 1.12688356268542e-006 0
+        <UV> { 0.0643287152051926 0.983098566532135 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {
+        4.81210041046143 0.112091118453082 0
+        <UV> { 0.0335630513727665 0.974341869354248 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {
+        4.49450016021729 0.70989113485628 0
+        <UV> { 0.0643287152051926 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {
+        -4.50549697875977 0.70989113485628 0
+        <UV> { 0.935671091079712 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 4 {
+        -4.81758099794388 0.112091118453082 0
+        <UV> { 0.966436684131622 0.974341869354248 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 5 {
+        -4.5 1.12688356268542e-006 0
+        <UV> { 0.935671091079712 0.983098566532135 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 6 {
+        5.01760005950928 0.70989113485628 0
+        <UV> { 0.0136558609083295 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 7 {
+        4.98019981384277 0.373631173728045 0
+        <UV> { 0.0172753520309925 0.953909039497375 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 8 {
+        -5.0230750143528 0.70989113485628 0
+        <UV> { 0.986341536045074 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 9 {
+        -4.98571199178696 0.373631173728045 0
+        <UV> { 0.982724249362946 0.953909039497375 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 0 1 2 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 3 4 5 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 2 3 0 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 0 3 5 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 6 2 7 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 7 2 1 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 8 9 3 <Ref> { bottomShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 3 9 4 <Ref> { bottomShape.verts } }
+    }
+  }
+  <Group> middle {
+    <VertexPool> middleShape.verts {
+      <Vertex> 0 {
+        -5.02307498455048 1.70989113485628 0
+        <UV> { 0.0136558609083295 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {
+        -5.02307498455048 0.70989113485628 0
+        <UV> { 0.0136558609083295 0.671188592910767 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {
+        -4.5 1.70989113485628 0
+        <UV> { 0.0643287152051926 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {
+        -4.5 0.70989113485628 0
+        <UV> { 0.0643287152051926 0.671188592910767 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 4 {
+        4.5 1.70989113485628 0
+        <UV> { 0.935671091079712 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 5 {
+        4.5 0.70989113485628 0
+        <UV> { 0.935671091079712 0.671188592910767 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 6 {
+        5.01758003234863 1.70989113485628 0
+        <UV> { 0.986341536045074 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 7 {
+        5.01758003234863 0.70989113485628 0
+        <UV> { 0.986341536045074 0.671188592910767 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 0 1 2 <Ref> { middleShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 2 1 3 <Ref> { middleShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 2 3 4 <Ref> { middleShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 4 3 5 <Ref> { middleShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 4 5 6 <Ref> { middleShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 6 5 7 <Ref> { middleShape.verts } }
+    }
+  }
+  <Group> top {
+    <VertexPool> topShape.verts {
+      <Vertex> 0 {
+        4.5 1.70989113485628 0
+        <UV> { 0.935671091079712 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 1 {
+        5.01758003234863 1.70989113485628 0
+        <UV> { 0.986341536045074 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 2 {
+        4.98021984100342 2.04615312254244 0
+        <UV> { 0.982724249362946 0.953909039497375 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 3 {
+        -4.98571199178696 2.04615312254244 0
+        <UV> { 0.0172753520309925 0.953909039497375 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 4 {
+        -5.02307498455048 1.70989113485628 0
+        <UV> { 0.0136558609083295 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 5 {
+        -4.5 1.70989113485628 0
+        <UV> { 0.0643287152051926 0.927638411521912 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 6 {
+        -4.5 2.41977816259676 0
+        <UV> { 0.0643287152051926 0.983098566532135 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 7 {
+        -4.81758099794388 2.30769115125948 0
+        <UV> { 0.0335630513727665 0.974341869354248 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 8 {
+        4.49450016021729 2.41977816259676 0
+        <UV> { 0.935671091079712 0.983098566532135 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+      <Vertex> 9 {
+        4.81208038330078 2.30769115125948 0
+        <UV> { 0.966436684131622 0.974341869354248 }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 0 1 2 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 3 4 5 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 6 7 5 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 5 7 3 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 6 5 8 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 8 5 0 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 8 0 9 <Ref> { topShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <TRef> { avatar_palette_1llla_1 }
+      <VertexRef> { 9 0 2 <Ref> { topShape.verts } }
+    }
+  }
+}
