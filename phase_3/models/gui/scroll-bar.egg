@@ -1,0 +1,45 @@
+<CoordinateSystem> { Y-Up }
+
+
+<Texture> phong1SG {
+  "phase_3/maps/slider.png"
+  <Scalar> format { rgba }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Group> scroll_bar {
+  <VertexPool> scroll_barShape.verts {
+    <Vertex> 0 {
+      -1.05 -0.0355568 0
+      <UV> { 0 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 0.737 }
+    }
+    <Vertex> 1 {
+      1.05 -0.0355568 0
+      <UV> { 1 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 0.737 }
+    }
+    <Vertex> 2 {
+      1.05 0.0355568 0
+      <UV> { 1 1 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 0.737 }
+    }
+    <Vertex> 3 {
+      -1.05 0.0355568 0
+      <UV> { 0 1 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 0.737 }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { phong1SG }
+    <VertexRef> { 0 1 2 3 <Ref> { scroll_barShape.verts } }
+  }
+}

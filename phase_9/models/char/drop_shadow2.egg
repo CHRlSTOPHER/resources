@@ -1,0 +1,49 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg drop_shadow.bam -o drop_shadow.egg"
+}
+<Texture> drop-shadow {
+  "phase_9/maps/dropShadow2.png"
+  <Scalar> format { luminance_alpha }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+  <Scalar> alpha { blend_no_occlude }
+}
+<VertexPool> drop_shadow.egg {
+  <Vertex> 0 {
+    -4 -4 0
+    <UV> { 0 0 }
+    <RGBA> { 1 1 1 0.698000013828278 }
+  }
+  <Vertex> 1 {
+    4 -4 0
+    <UV> { 1 0 }
+    <RGBA> { 1 1 1 0.698000013828278 }
+  }
+  <Vertex> 2 {
+    -4 4 0
+    <UV> { 0 1 }
+    <RGBA> { 1 1 1 0.698000013828278 }
+  }
+  <Vertex> 3 {
+    4 4 0
+    <UV> { 1 1 }
+    <RGBA> { 1 1 1 0.698000013828278 }
+  }
+}
+<Group> drop_shadow.egg {
+  <Group> drop-shadow {
+    <Polygon> {
+      <TRef> { drop-shadow }
+      <VertexRef> { 0 1 2 <Ref> { drop_shadow.egg } }
+    }
+    <Polygon> {
+      <TRef> { drop-shadow }
+      <VertexRef> { 2 1 3 <Ref> { drop_shadow.egg } }
+    }
+  }
+}

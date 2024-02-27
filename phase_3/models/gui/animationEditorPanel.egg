@@ -1,0 +1,106 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2016 -o animationEditorPanel.egg animationEditorPanel.mb"
+}
+<Texture> tt_t_gui_ups_panelBg1 {
+  "phase_3/maps/tt_t_gui_ups_panelBg2.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> tt_t_gui_ups_panelBg {
+  <VertexPool> tt_t_gui_ups_panelBgShape.verts {
+    <Vertex> 0 {
+      -1.53703522107972 0.625726457928316 0
+      <UV> { 0 1 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 1 {
+      -1.53703522107972 0.315112749463265 0
+      <UV> { 0 0.862977981567383 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 2 {
+      1.10071706089851 0.310796273379966 0
+      <UV> { 0.858065009117126 0.858065009117126 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 3 {
+      1.53703522107972 0.625726457928316 0
+      <UV> { 1 1 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 4 {
+      1.53703522107972 0.310082871604174 0
+      <UV> { 1 0.857253015041351 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 5 {
+      -1.53703522107972 -0.324819608506282 0
+      <UV> { 0 0.134611621499062 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 6 {
+      -1.13052326873222 -0.326904130602205 0
+      <UV> { 0.13223896920681 0.13223896920681 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 7 {
+      1.53703522107972 -0.340583967696576 0
+      <UV> { 1 0.116668708622456 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 8 {
+      -1.53703522107972 -0.625726457928316 0
+      <UV> { 0 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 9 {
+      1.53703522107972 -0.625726457928316 0
+      <UV> { 1 0 }
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 0 1 2 3 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 3 2 4 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 2 1 5 6 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 4 2 6 7 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 6 5 8 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { tt_t_gui_ups_panelBg1 }
+    <VertexRef> { 7 6 8 9 <Ref> { tt_t_gui_ups_panelBgShape.verts } }
+  }
+}
